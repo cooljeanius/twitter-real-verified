@@ -1,6 +1,6 @@
 {
     "name": "__MSG_app_title__",
-    "version": "1.2.0",
+    "version": "2.1.1",
     "description": "__MSG_app_description__",
     "author": "@luiserdef",
     "default_locale": "en",
@@ -28,5 +28,9 @@
         ]
       }
     ],
-    "web_accessible_resources": ["script.js"]
+    "web_accessible_resources": [
+      "verifiedUserList1.js",
+      "verifiedUserList2.js",
+      "script.js"
+    ]
   }
