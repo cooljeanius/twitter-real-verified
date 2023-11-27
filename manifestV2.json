@@ -1,6 +1,6 @@
 {
     "name": "__MSG_app_title__",
-    "version": "2.0.0",
+    "version": "2.1.7",
     "description": "__MSG_app_description__",
     "author": "@luiserdef",
     "default_locale": "en",
@@ -23,10 +23,14 @@
       {
         "js": ["contentScript.js"],
         "matches": [
-          "https://mobile.twitter.com/*",
-          "https://twitter.com/*"
+          "https://twitter.com/*",
+          "https://tweetdeck.twitter.com/*"
         ]
       }
     ],
-    "web_accessible_resources": ["script.js"]
+    "web_accessible_resources": [
+      "verifiedUserList1.js",
+      "verifiedUserList2.js",
+      "script.js"
+    ]
   }
