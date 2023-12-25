@@ -9,8 +9,8 @@ dependencies:
     specifier: ^7.23.6
     version: 7.23.6
   '@uiw/color-convert':
-    specifier: ^2.0.3
-    version: 2.0.3(@babel/runtime@7.23.6)
+    specifier: ^2.0.5
+    version: 2.0.5(@babel/runtime@7.23.6)
   '@uiw/react-color-hue':
     specifier: ^2.0.3
     version: 2.0.3(@babel/runtime@7.23.6)(react-dom@18.2.0)(react@18.2.0)
