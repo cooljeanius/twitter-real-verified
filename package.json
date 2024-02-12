@@ -19,7 +19,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "chokidar": "^3.5.3",
+    "chokidar": "^3.6.0",
     "esbuild": "^0.19.12",
     "esbuild-plugin-svgr": "^2.1.0",
     "fs-extra": "^11.2.0",
