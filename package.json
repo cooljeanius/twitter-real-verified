@@ -14,7 +14,7 @@
     "@babel/runtime": "^7.23.9",
     "@uiw/color-convert": "^2.1.0",
     "@uiw/react-color-hue": "^2.1.0",
-    "@uiw/react-color-shade-slider": "^2.0.8",
+    "@uiw/react-color-shade-slider": "^2.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0)
   '@uiw/react-color-shade-slider':
-    specifier: ^2.0.8
-    version: 2.0.8(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.1.0
+    version: 2.1.0(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0)
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -782,34 +782,12 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@uiw/color-convert@2.0.8(@babel/runtime@7.23.9):
-    resolution: {integrity: sha512-yh0Q91FwTNCl5rMpNSQSlpazMz65V6V0LMIyssHk0ris4af9xQi+t01snLP+Dbjbk4HaSy7b8AptTP3NudggdQ==}
-    peerDependencies:
-      '@babel/runtime': '>=7.19.0'
-    dependencies:
-      '@babel/runtime': 7.23.9
-    dev: false
-
   /@uiw/color-convert@2.1.0(@babel/runtime@7.23.9):
     resolution: {integrity: sha512-BQuZSOfJINS0mWEEcKdeGW7puL5x8XHMlTiWPn+sReuLBjLnjKdjCoAMAXTwPZB9x2nHcDVGFmiWTgi3G0B77g==}
     peerDependencies:
       '@babel/runtime': '>=7.19.0'
     dependencies:
       '@babel/runtime': 7.23.9
-    dev: false
-
-  /@uiw/react-color-alpha@2.0.8(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-QppWrb7QBTIi0xZ6Q818tSi0LpZfkB323Q4F36a/vH4chzqOJAj6aCFM18d1CqjcLT4R1gnDhBSlW2dVD/4YoQ==}
-    peerDependencies:
-      '@babel/runtime': '>=7.19.0'
-      react: '>=16.9.0'
-      react-dom: '>=16.9.0'
-    dependencies:
-      '@babel/runtime': 7.23.9
-      '@uiw/color-convert': 2.0.8(@babel/runtime@7.23.9)
-      '@uiw/react-drag-event-interactive': 2.0.8(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
     dev: false
 
   /@uiw/react-color-alpha@2.1.0(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0):
@@ -840,28 +818,16 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@uiw/react-color-shade-slider@2.0.8(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-fVfmHTpPU5Mn2LCB1j6Wjw0AqszGuCthyH3U9GKpjQNrOSGe0G5tI6zMcqzut5wF3ovu4GSTAmA7bJxm+Rbrqw==}
+  /@uiw/react-color-shade-slider@2.1.0(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-i6UC3J7IseWwus7SAbvlN/f0hJeamiJbkqbTN7ox5I3TllHOt2v4hv3JQrIBXJiuZXZkJxaIWGUNTcmA0kyO9Q==}
     peerDependencies:
       '@babel/runtime': '>=7.19.0'
       react: '>=16.9.0'
       react-dom: '>=16.9.0'
     dependencies:
       '@babel/runtime': 7.23.9
-      '@uiw/color-convert': 2.0.8(@babel/runtime@7.23.9)
-      '@uiw/react-color-alpha': 2.0.8(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0)
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    dev: false
-
-  /@uiw/react-drag-event-interactive@2.0.8(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Z8awDfUV7970Q6GfJmx6x7fx5KeHn6RPinQVRYRAnKS7QP6XgQOIvVn8bYKe5vd4vQeBbzIVYYySjYRWjA5heA==}
-    peerDependencies:
-      '@babel/runtime': '>=7.19.0'
-      react: '>=16.9.0'
-      react-dom: '>=16.9.0'
-    dependencies:
-      '@babel/runtime': 7.23.9
+      '@uiw/color-convert': 2.1.0(@babel/runtime@7.23.9)
+      '@uiw/react-color-alpha': 2.1.0(@babel/runtime@7.23.9)(react-dom@18.2.0)(react@18.2.0)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
