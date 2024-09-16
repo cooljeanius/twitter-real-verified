@@ -23,7 +23,7 @@
     "esbuild": "^0.19.12",
     "esbuild-plugin-svgr": "^2.1.0",
     "fs-extra": "^11.2.0",
-    "standard": "^17.1.0"
+    "standard": "^17.1.2"
   },
   "standard": {
     "globals": [
