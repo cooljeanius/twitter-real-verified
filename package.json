@@ -12,9 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "@babel/runtime": "^7.26.0",
-    "@uiw/color-convert": "^2.3.2",
-    "@uiw/react-color-hue": "^2.3.2",
-    "@uiw/react-color-shade-slider": "^2.3.2",
+    "@uiw/color-convert": "^2.3.3",
+    "@uiw/react-color-hue": "^2.3.3",
+    "@uiw/react-color-shade-slider": "^2.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
