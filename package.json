@@ -22,7 +22,7 @@
     "chokidar": "^4.0.3",
     "esbuild": "^0.24.2",
     "esbuild-plugin-svgr": "^3.1.0",
-    "fs-extra": "^11.2.0",
+    "fs-extra": "^11.3.0",
     "standard": "^17.1.2"
   },
   "standard": {
